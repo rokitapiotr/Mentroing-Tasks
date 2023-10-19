@@ -25,3 +25,11 @@ class Airplane(Vehicle):
 class Boat(Vehicle):
     def move(self):
         print("The boat is sailing at {} km/h.".format(self.speed))
+
+
+# List of vehicles
+vehicles = [Car(100), Airplane(500), Boat(20)]
+
+# Move all vehicles
+for vehicle in vehicles:
+    vehicle.move()
