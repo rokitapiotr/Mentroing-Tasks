@@ -1,0 +1,191 @@
+{
+	"info": {
+		"_postman_id": "45f8a822-f921-455f-aecb-b806665f3eee",
+		"name": "WeatherAppAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29121418",
+		"_collection_link": "https://speeding-satellite-174019.postman.co/workspace/Area52~ca790990-c4e3-439c-b156-01c3ee9c71fa/collection/29121418-45f8a822-f921-455f-aecb-b806665f3eee?action=share&source=collection_link&creator=29121418"
+	},
+	"item": [
+		{
+			"name": "Turkmenistan",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?lat=40&lon=60&appid=b7c5d463d8cfff8b42414796248d15bb",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "40"
+						},
+						{
+							"key": "lon",
+							"value": "60"
+						},
+						{
+							"key": "appid",
+							"value": "b7c5d463d8cfff8b42414796248d15bb"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Japan",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?lat=31&lon=130&appid=b7c5d463d8cfff8b42414796248d15bb",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "31"
+						},
+						{
+							"key": "lon",
+							"value": "130"
+						},
+						{
+							"key": "appid",
+							"value": "b7c5d463d8cfff8b42414796248d15bb"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Iran",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?lat=35&lon=50&appid=b7c5d463d8cfff8b42414796248d15bb",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "35"
+						},
+						{
+							"key": "lon",
+							"value": "50"
+						},
+						{
+							"key": "appid",
+							"value": "b7c5d463d8cfff8b42414796248d15bb"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "China",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?lat=40&lon=120&appid=b7c5d463d8cfff8b42414796248d15bb",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "40"
+						},
+						{
+							"key": "lon",
+							"value": "120"
+						},
+						{
+							"key": "appid",
+							"value": "b7c5d463d8cfff8b42414796248d15bb"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Libia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?lat=40&lon=120&appid=b7c5d463d8cfff8b42414796248d15bb",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "40"
+						},
+						{
+							"key": "lon",
+							"value": "120"
+						},
+						{
+							"key": "appid",
+							"value": "b7c5d463d8cfff8b42414796248d15bb"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
